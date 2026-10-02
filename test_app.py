@@ -15,7 +15,7 @@ def get_customer_data(customer_id):
     """
     # 임시 고객 데이터
     customers = {
-        1: {"name": "비나텍", "status": "VIP", "last_contact": "2023-10-01"},
+        1: {"name": "넷킬러", "status": "VIP", "last_contact": "2023-10-01"},
         2: {"name": "구글 클라우드", "status": "일반", "last_contact": "2023-09-15"}
     }
     return customers.get(customer_id, "고객 정보를 찾을 수 없습니다.")
