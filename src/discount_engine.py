@@ -12,7 +12,7 @@ def calculate_discount(customer_type, total_amount, promo_code=None):
         discount_rate += 0.20  # Enterprise 20% 할인
 
     # 프로모션 코드 검증
-    if promo_code == "VINA2026":
+    if promo_code == "NK2026":
         discount_rate += 0.05  # 5% 추가 할인
 
     final_price = total_amount * (1 - discount_rate)
