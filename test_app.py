@@ -11,7 +11,7 @@ def login_user(username, password):
 
 def get_customer_data(customer_id):
     """
-    고객의 상세 정보를 불러옵니다.
+    고객의 상세 정보를 불러옵니다.dfd
     """
     # 임시 고객 데이터
     customers = {
